@@ -1,0 +1,255 @@
+2024-07-21 10:35:46,505:INFO:====== WebDriver manager ======
+2024-07-21 10:35:47,097:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-21 10:35:47,126:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-21 10:35:47,149:INFO:Driver [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\126.0.6478.182\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-21 10:35:56,698:INFO:Iniciando busca no Google Maps
+2024-07-21 10:36:02,653:INFO:Extraindo dados das empresas
+2024-07-21 10:36:10,751:ERROR:Erro ao processar o website (ícone encontrado, mas erro ao capturar texto): Message: no such element: Unable to locate element: {"method":"xpath","selector":".//span[contains(@class, "google-symbols PHazN")]"}
+  (Session info: chrome=126.0.6478.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00F3C203+27395]
+	(No symbol) [0x00ED3E04]
+	(No symbol) [0x00DD1B7F]
+	(No symbol) [0x00E12C65]
+	(No symbol) [0x00E12D3B]
+	(No symbol) [0x00E08D01]
+	(No symbol) [0x00E339E4]
+	(No symbol) [0x00E08C15]
+	(No symbol) [0x00E33C34]
+	(No symbol) [0x00E4CB24]
+	(No symbol) [0x00E33736]
+	(No symbol) [0x00E07541]
+	(No symbol) [0x00E080BD]
+	GetHandleVerifier [0x011F3AB3+2876339]
+	GetHandleVerifier [0x01247F7D+3221629]
+	GetHandleVerifier [0x00FBD674+556916]
+	GetHandleVerifier [0x00FC478C+585868]
+	(No symbol) [0x00EDCE44]
+	(No symbol) [0x00ED9858]
+	(No symbol) [0x00ED99F7]
+	(No symbol) [0x00ECBF4E]
+	BaseThreadInitThunk [0x7766FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77B280CE+286]
+	RtlGetAppContainerNamedObjectPath [0x77B2809E+238]
+
+2024-07-21 10:36:16,848:ERROR:Erro ao processar o website (ícone encontrado, mas erro ao capturar texto): Message: no such element: Unable to locate element: {"method":"xpath","selector":".//span[contains(@class, "google-symbols PHazN")]"}
+  (Session info: chrome=126.0.6478.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00F3C203+27395]
+	(No symbol) [0x00ED3E04]
+	(No symbol) [0x00DD1B7F]
+	(No symbol) [0x00E12C65]
+	(No symbol) [0x00E12D3B]
+	(No symbol) [0x00E08D01]
+	(No symbol) [0x00E339E4]
+	(No symbol) [0x00E08C15]
+	(No symbol) [0x00E33C34]
+	(No symbol) [0x00E4CB24]
+	(No symbol) [0x00E33736]
+	(No symbol) [0x00E07541]
+	(No symbol) [0x00E080BD]
+	GetHandleVerifier [0x011F3AB3+2876339]
+	GetHandleVerifier [0x01247F7D+3221629]
+	GetHandleVerifier [0x00FBD674+556916]
+	GetHandleVerifier [0x00FC478C+585868]
+	(No symbol) [0x00EDCE44]
+	(No symbol) [0x00ED9858]
+	(No symbol) [0x00ED99F7]
+	(No symbol) [0x00ECBF4E]
+	BaseThreadInitThunk [0x7766FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77B280CE+286]
+	RtlGetAppContainerNamedObjectPath [0x77B2809E+238]
+
+2024-07-21 10:36:22,943:ERROR:Erro ao processar o website (ícone encontrado, mas erro ao capturar texto): Message: no such element: Unable to locate element: {"method":"xpath","selector":".//span[contains(@class, "google-symbols PHazN")]"}
+  (Session info: chrome=126.0.6478.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00F3C203+27395]
+	(No symbol) [0x00ED3E04]
+	(No symbol) [0x00DD1B7F]
+	(No symbol) [0x00E12C65]
+	(No symbol) [0x00E12D3B]
+	(No symbol) [0x00E08D01]
+	(No symbol) [0x00E339E4]
+	(No symbol) [0x00E08C15]
+	(No symbol) [0x00E33C34]
+	(No symbol) [0x00E4CB24]
+	(No symbol) [0x00E33736]
+	(No symbol) [0x00E07541]
+	(No symbol) [0x00E080BD]
+	GetHandleVerifier [0x011F3AB3+2876339]
+	GetHandleVerifier [0x01247F7D+3221629]
+	GetHandleVerifier [0x00FBD674+556916]
+	GetHandleVerifier [0x00FC478C+585868]
+	(No symbol) [0x00EDCE44]
+	(No symbol) [0x00ED9858]
+	(No symbol) [0x00ED99F7]
+	(No symbol) [0x00ECBF4E]
+	BaseThreadInitThunk [0x7766FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77B280CE+286]
+	RtlGetAppContainerNamedObjectPath [0x77B2809E+238]
+
+2024-07-21 10:36:29,039:ERROR:Erro ao processar o website (ícone encontrado, mas erro ao capturar texto): Message: no such element: Unable to locate element: {"method":"xpath","selector":".//span[contains(@class, "google-symbols PHazN")]"}
+  (Session info: chrome=126.0.6478.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00F3C203+27395]
+	(No symbol) [0x00ED3E04]
+	(No symbol) [0x00DD1B7F]
+	(No symbol) [0x00E12C65]
+	(No symbol) [0x00E12D3B]
+	(No symbol) [0x00E08D01]
+	(No symbol) [0x00E339E4]
+	(No symbol) [0x00E08C15]
+	(No symbol) [0x00E33C34]
+	(No symbol) [0x00E4CB24]
+	(No symbol) [0x00E33736]
+	(No symbol) [0x00E07541]
+	(No symbol) [0x00E080BD]
+	GetHandleVerifier [0x011F3AB3+2876339]
+	GetHandleVerifier [0x01247F7D+3221629]
+	GetHandleVerifier [0x00FBD674+556916]
+	GetHandleVerifier [0x00FC478C+585868]
+	(No symbol) [0x00EDCE44]
+	(No symbol) [0x00ED9858]
+	(No symbol) [0x00ED99F7]
+	(No symbol) [0x00ECBF4E]
+	BaseThreadInitThunk [0x7766FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77B280CE+286]
+	RtlGetAppContainerNamedObjectPath [0x77B2809E+238]
+
+2024-07-21 10:36:35,171:ERROR:Erro ao processar o website (ícone encontrado, mas erro ao capturar texto): Message: no such element: Unable to locate element: {"method":"xpath","selector":".//span[contains(@class, "google-symbols PHazN")]"}
+  (Session info: chrome=126.0.6478.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00F3C203+27395]
+	(No symbol) [0x00ED3E04]
+	(No symbol) [0x00DD1B7F]
+	(No symbol) [0x00E12C65]
+	(No symbol) [0x00E12D3B]
+	(No symbol) [0x00E08D01]
+	(No symbol) [0x00E339E4]
+	(No symbol) [0x00E08C15]
+	(No symbol) [0x00E33C34]
+	(No symbol) [0x00E4CB24]
+	(No symbol) [0x00E33736]
+	(No symbol) [0x00E07541]
+	(No symbol) [0x00E080BD]
+	GetHandleVerifier [0x011F3AB3+2876339]
+	GetHandleVerifier [0x01247F7D+3221629]
+	GetHandleVerifier [0x00FBD674+556916]
+	GetHandleVerifier [0x00FC478C+585868]
+	(No symbol) [0x00EDCE44]
+	(No symbol) [0x00ED9858]
+	(No symbol) [0x00ED99F7]
+	(No symbol) [0x00ECBF4E]
+	BaseThreadInitThunk [0x7766FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77B280CE+286]
+	RtlGetAppContainerNamedObjectPath [0x77B2809E+238]
+
+2024-07-21 10:36:38,184:INFO:Salvando dados no Excel
+2024-07-21 10:37:37,028:INFO:====== WebDriver manager ======
+2024-07-21 10:37:37,641:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-21 10:37:37,663:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-21 10:37:37,688:INFO:Driver [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\126.0.6478.182\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-21 10:37:43,542:INFO:Iniciando busca no Google Maps
+2024-07-21 10:37:49,484:INFO:Extraindo dados das empresas
+2024-07-21 10:38:22,240:ERROR:Erro ao processar o website (ícone encontrado, mas erro ao capturar texto): Message: no such element: Unable to locate element: {"method":"xpath","selector":".//span[contains(@class, "google-symbols PHazN")]"}
+  (Session info: chrome=126.0.6478.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00F3C203+27395]
+	(No symbol) [0x00ED3E04]
+	(No symbol) [0x00DD1B7F]
+	(No symbol) [0x00E12C65]
+	(No symbol) [0x00E12D3B]
+	(No symbol) [0x00E08D01]
+	(No symbol) [0x00E339E4]
+	(No symbol) [0x00E08C15]
+	(No symbol) [0x00E33C34]
+	(No symbol) [0x00E4CB24]
+	(No symbol) [0x00E33736]
+	(No symbol) [0x00E07541]
+	(No symbol) [0x00E080BD]
+	GetHandleVerifier [0x011F3AB3+2876339]
+	GetHandleVerifier [0x01247F7D+3221629]
+	GetHandleVerifier [0x00FBD674+556916]
+	GetHandleVerifier [0x00FC478C+585868]
+	(No symbol) [0x00EDCE44]
+	(No symbol) [0x00ED9858]
+	(No symbol) [0x00ED99F7]
+	(No symbol) [0x00ECBF4E]
+	BaseThreadInitThunk [0x7766FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77B280CE+286]
+	RtlGetAppContainerNamedObjectPath [0x77B2809E+238]
+
+2024-07-21 10:39:00,397:ERROR:Erro ao processar o website (ícone encontrado, mas erro ao capturar texto): Message: no such element: Unable to locate element: {"method":"xpath","selector":".//span[contains(@class, "google-symbols PHazN")]"}
+  (Session info: chrome=126.0.6478.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00F3C203+27395]
+	(No symbol) [0x00ED3E04]
+	(No symbol) [0x00DD1B7F]
+	(No symbol) [0x00E12C65]
+	(No symbol) [0x00E12D3B]
+	(No symbol) [0x00E08D01]
+	(No symbol) [0x00E339E4]
+	(No symbol) [0x00E08C15]
+	(No symbol) [0x00E33C34]
+	(No symbol) [0x00E4CB24]
+	(No symbol) [0x00E33736]
+	(No symbol) [0x00E07541]
+	(No symbol) [0x00E080BD]
+	GetHandleVerifier [0x011F3AB3+2876339]
+	GetHandleVerifier [0x01247F7D+3221629]
+	GetHandleVerifier [0x00FBD674+556916]
+	GetHandleVerifier [0x00FC478C+585868]
+	(No symbol) [0x00EDCE44]
+	(No symbol) [0x00ED9858]
+	(No symbol) [0x00ED99F7]
+	(No symbol) [0x00ECBF4E]
+	BaseThreadInitThunk [0x7766FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77B280CE+286]
+	RtlGetAppContainerNamedObjectPath [0x77B2809E+238]
+
+2024-07-22 18:29:16,510:INFO:====== WebDriver manager ======
+2024-07-22 18:29:17,157:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:29:17,194:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:29:17,218:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:29:17,277:INFO:WebDriver version 126.0.6478.182 selected
+2024-07-22 18:29:17,278:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.182/win32/chromedriver-win32.zip
+2024-07-22 18:29:17,278:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.182/win32/chromedriver-win32.zip
+2024-07-22 18:29:17,373:INFO:Driver downloading response is 200
+2024-07-22 18:29:17,522:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:29:17,619:INFO:Driver has been saved in cache [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\126.0.6478.182]
+2024-07-22 18:29:33,854:INFO:Iniciando busca no Google Maps
+2024-07-22 18:29:39,881:INFO:Extraindo dados das empresas
+2024-07-22 18:30:32,847:ERROR:Erro ao processar o website (ícone encontrado, mas erro ao capturar texto): Message: no such element: Unable to locate element: {"method":"xpath","selector":".//span[contains(@class, "google-symbols PHazN")]"}
+  (Session info: chrome=126.0.6478.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00D5C203+27395]
+	(No symbol) [0x00CF3E04]
+	(No symbol) [0x00BF1B7F]
+	(No symbol) [0x00C32C65]
+	(No symbol) [0x00C32D3B]
+	(No symbol) [0x00C28D01]
+	(No symbol) [0x00C539E4]
+	(No symbol) [0x00C28C15]
+	(No symbol) [0x00C53C34]
+	(No symbol) [0x00C6CB24]
+	(No symbol) [0x00C53736]
+	(No symbol) [0x00C27541]
+	(No symbol) [0x00C280BD]
+	GetHandleVerifier [0x01013AB3+2876339]
+	GetHandleVerifier [0x01067F7D+3221629]
+	GetHandleVerifier [0x00DDD674+556916]
+	GetHandleVerifier [0x00DE478C+585868]
+	(No symbol) [0x00CFCE44]
+	(No symbol) [0x00CF9858]
+	(No symbol) [0x00CF99F7]
+	(No symbol) [0x00CEBF4E]
+	BaseThreadInitThunk [0x7766FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77B280CE+286]
+	RtlGetAppContainerNamedObjectPath [0x77B2809E+238]
+
+2024-07-22 18:32:01,765:INFO:====== WebDriver manager ======
+2024-07-22 18:32:02,399:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:32:02,428:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:32:02,454:INFO:Driver [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\126.0.6478.182\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-22 18:32:47,499:INFO:Iniciando busca no Google Maps
+2024-07-22 18:32:53,501:INFO:Extraindo dados das empresas

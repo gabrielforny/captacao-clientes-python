@@ -19,7 +19,7 @@ logging.basicConfig(filename='robot_log.txt', level=logging.INFO,
 service = Service(ChromeDriverManager().install())
 options = webdriver.ChromeOptions()
 # Remova a linha abaixo se quiser ver o navegador em ação
-#options.add_argument('--headless')
+# options.add_argument('--headless')
 driver = webdriver.Chrome(service=service, options=options)
 driver.maximize_window()  # Maximiza o navegador após a inicialização
 
@@ -66,16 +66,15 @@ def extract_company_data():
                 address = ''
             
             try:
-                phone = driver.find_element(By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[7]/div[8]/button/div/div[2]/div[1]').text
-                if not is_valid_phone(phone):
-                    raise ValueError("Primeiro XPATH não encontrou um número de telefone válido.")
+                phone_elements = driver.find_elements(By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[7]//button/div/div[2]/div[1]')
+                phone = ''
+                for element in phone_elements:
+                    phone_text = element.text
+                    if is_valid_phone(phone_text):
+                        phone = phone_text
+                        break
             except:
-                try:
-                    phone = driver.find_element(By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[7]/div[6]/button/div/div[2]/div[1]').text
-                    if not is_valid_phone(phone):
-                        phone = ''
-                except:
-                    phone = ''
+                phone = ''
             
             try:
                 # Localize o contêiner que contém o ícone do globo e o texto do URL
