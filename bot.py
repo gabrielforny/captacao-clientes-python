@@ -51,7 +51,7 @@ def extract_company_data():
     time.sleep(5)
 
     numberDiv = 3
-    for companies in range(5):
+    for companies in range(2):
         print(f"Acessando empresa {companies}")
         try:
             company = driver.find_element(By.XPATH, f'//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[{numberDiv}]')
@@ -116,15 +116,37 @@ def save_to_excel(data):
     df = pd.DataFrame(data, columns=['Nome', 'Endereço', 'Telefone', 'Website', 'Instagram'])
     df.to_excel('company_data.xlsx', index=False)
 
-# Função para enviar mensagens via WhatsApp
+import os
+
 def send_whatsapp_messages(data):
     logging.info("Enviando mensagens pelo WhatsApp")
+    
+    # Obter o diretório atual e construir o caminho para o arquivo
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    file_path = os.path.join(script_dir, 'mensagem-wpp.txt')
+    
+    # Ler o conteúdo do arquivo de texto
+    with open(file_path, 'r', encoding='utf-8') as file:
+        message_template = file.read()
+
     for entry in data:
         phone = entry[2]
-        if 'whatsapp' in phone.lower():
-            message = f"Olá {entry[0]}, estamos entrando em contato para..."
-            phone_number = '+55' + phone.replace('whatsapp', '').replace(' ', '')
-            pywhatkit.sendwhatmsg_instantly(phone_number, message, wait_time=10)
+        name = entry[0]
+
+        # Verificar e formatar o número de telefone
+        if phone:
+            phone_number = phone.replace('(', '').replace(')', '').replace('-', '').replace(' ', '')
+            phone_number = '+55' + phone_number
+
+            # Substituir o placeholder pelo nome da empresa
+            message = message_template.replace('$nomeEmpresa$', name)
+            
+            try:
+                pywhatkit.sendwhatmsg_instantly(phone_number, message, wait_time=10)
+            except Exception as e:
+                logging.error(f"Erro ao enviar mensagem para {phone_number}: {e}")
+                print(f"Erro ao enviar mensagem para {phone_number}: {e}")
+
 
 # Função principal da automação
 def start_automation():
