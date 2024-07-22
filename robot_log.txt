@@ -253,3 +253,86 @@ Stacktrace:
 2024-07-22 18:32:02,454:INFO:Driver [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\126.0.6478.182\chromedriver-win32/chromedriver.exe] found in cache
 2024-07-22 18:32:47,499:INFO:Iniciando busca no Google Maps
 2024-07-22 18:32:53,501:INFO:Extraindo dados das empresas
+2024-07-22 18:37:14,165:INFO:====== WebDriver manager ======
+2024-07-22 18:37:14,794:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:37:14,819:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:37:14,843:INFO:Driver [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\126.0.6478.182\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-22 18:37:21,728:INFO:Iniciando busca no Google Maps
+2024-07-22 18:37:27,746:INFO:Extraindo dados das empresas
+2024-07-22 18:38:12,740:ERROR:Erro ao processar o website (ícone encontrado, mas erro ao capturar texto): Message: no such element: Unable to locate element: {"method":"xpath","selector":".//span[contains(@class, "google-symbols PHazN")]"}
+  (Session info: chrome=126.0.6478.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00D5C203+27395]
+	(No symbol) [0x00CF3E04]
+	(No symbol) [0x00BF1B7F]
+	(No symbol) [0x00C32C65]
+	(No symbol) [0x00C32D3B]
+	(No symbol) [0x00C28D01]
+	(No symbol) [0x00C539E4]
+	(No symbol) [0x00C28C15]
+	(No symbol) [0x00C53C34]
+	(No symbol) [0x00C6CB24]
+	(No symbol) [0x00C53736]
+	(No symbol) [0x00C27541]
+	(No symbol) [0x00C280BD]
+	GetHandleVerifier [0x01013AB3+2876339]
+	GetHandleVerifier [0x01067F7D+3221629]
+	GetHandleVerifier [0x00DDD674+556916]
+	GetHandleVerifier [0x00DE478C+585868]
+	(No symbol) [0x00CFCE44]
+	(No symbol) [0x00CF9858]
+	(No symbol) [0x00CF99F7]
+	(No symbol) [0x00CEBF4E]
+	BaseThreadInitThunk [0x7766FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77B280CE+286]
+	RtlGetAppContainerNamedObjectPath [0x77B2809E+238]
+
+2024-07-22 18:41:54,310:INFO:====== WebDriver manager ======
+2024-07-22 18:41:54,940:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:41:54,964:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:41:54,989:INFO:Driver [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\126.0.6478.182\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-22 18:42:03,363:INFO:Iniciando busca no Google Maps
+2024-07-22 18:42:09,240:INFO:Extraindo dados das empresas
+2024-07-22 18:42:48,566:INFO:====== WebDriver manager ======
+2024-07-22 18:42:49,173:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:42:49,198:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:42:49,224:INFO:Driver [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\126.0.6478.182\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-22 18:42:53,849:INFO:Iniciando busca no Google Maps
+2024-07-22 18:43:00,110:INFO:Extraindo dados das empresas
+2024-07-22 18:43:59,267:INFO:====== WebDriver manager ======
+2024-07-22 18:43:59,881:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:43:59,905:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:43:59,925:INFO:Driver [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\126.0.6478.182\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-22 18:44:05,438:INFO:Iniciando busca no Google Maps
+2024-07-22 18:44:11,748:INFO:Extraindo dados das empresas
+2024-07-22 18:47:47,073:INFO:====== WebDriver manager ======
+2024-07-22 18:47:47,698:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:47:47,719:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:47:47,745:INFO:Driver [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\126.0.6478.182\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-22 18:47:56,429:INFO:Iniciando busca no Google Maps
+2024-07-22 18:48:02,698:INFO:Extraindo dados das empresas
+2024-07-22 18:49:17,191:INFO:====== WebDriver manager ======
+2024-07-22 18:49:17,798:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:49:17,826:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:49:17,850:INFO:Driver [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\126.0.6478.182\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-22 18:49:23,881:INFO:Iniciando busca no Google Maps
+2024-07-22 18:49:30,757:INFO:Extraindo dados das empresas
+2024-07-22 18:53:35,133:INFO:====== WebDriver manager ======
+2024-07-22 18:53:35,742:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:53:35,765:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:53:35,787:INFO:Driver [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\126.0.6478.182\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-22 18:53:43,014:INFO:Iniciando busca no Google Maps
+2024-07-22 18:53:49,404:INFO:Extraindo dados das empresas
+2024-07-22 18:57:21,346:INFO:====== WebDriver manager ======
+2024-07-22 18:57:21,972:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:57:21,999:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 18:57:22,029:INFO:Driver [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\126.0.6478.182\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-22 18:57:36,660:INFO:Iniciando busca no Google Maps
+2024-07-22 18:57:43,240:INFO:Extraindo dados das empresas
+2024-07-22 19:00:27,273:INFO:====== WebDriver manager ======
+2024-07-22 19:00:27,893:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 19:00:27,913:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-22 19:00:27,937:INFO:Driver [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\126.0.6478.182\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-22 19:00:32,315:INFO:Iniciando busca no Google Maps
+2024-07-22 19:00:38,582:INFO:Extraindo dados das empresas
+2024-07-22 19:01:37,079:INFO:Salvando dados no Excel

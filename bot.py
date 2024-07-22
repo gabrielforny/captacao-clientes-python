@@ -11,7 +11,6 @@ import pywhatkit
 import logging
 import re
 
-# Configurar o logger
 logging.basicConfig(filename='robot_log.txt', level=logging.INFO,
                     format='%(asctime)s:%(levelname)s:%(message)s')
 
@@ -21,9 +20,8 @@ options = webdriver.ChromeOptions()
 # Remova a linha abaixo se quiser ver o navegador em ação
 # options.add_argument('--headless')
 driver = webdriver.Chrome(service=service, options=options)
-driver.maximize_window()  # Maximiza o navegador após a inicialização
+driver.maximize_window()  
 
-# Função para buscar empresas no Google Maps
 def search_google_maps(niche):
     logging.info("Iniciando busca no Google Maps")
     url = 'https://www.google.com/maps'
@@ -34,19 +32,24 @@ def search_google_maps(niche):
     time.sleep(5)
 
 def is_valid_phone(phone):
-    # Regex para validar um número de telefone no formato (xx) xxxxx-xxxx
     pattern = r"\(\d{2}\) \d{4,5}-\d{4}"
     return re.match(pattern, phone) is not None
 
-# Função para extrair dados das empresas
+def is_valid_website(url):
+    pattern = r".*\.(com|br)$"
+    if re.match(pattern, url) and "whatsapp.com" not in url.lower():
+        return True
+    return False
+
+def clean_text(text):
+    return re.sub(r'\s+', ' ', text.replace('\ue80b', '').replace('\ue878', '').strip())
+
 def extract_company_data():
     logging.info("Extraindo dados das empresas")
     company_data = []
 
-    # Esperar os resultados carregarem
     time.sleep(5)
 
-    # Encontrar os elementos que correspondem aos resultados da pesquisa
     numberDiv = 3
     for companies in range(5):
         print(f"Acessando empresa {companies}")
@@ -77,31 +80,23 @@ def extract_company_data():
                 phone = ''
             
             try:
-                # Localize o contêiner que contém o ícone do globo e o texto do URL
-                container = driver.find_element(By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[7]/div[7]')
-                if container:
-                    try:
-                        # Verifique se o ícone do globo está presente dentro do contêiner
-                        globe_icon = container.find_element(By.XPATH, './/span[contains(@class, "google-symbols PHazN")]')
-                        if globe_icon:
-                            # Capture o texto do URL ao lado do ícone do globo
-                            website = container.find_element(By.XPATH, './/div[contains(@class, "Io6YTe fontBodyMedium kR99db")]').text
-                        else:
-                            website = ''
-                    except Exception as inner_e:
-                        website = ''
-                        logging.error(f"Erro ao processar o website (ícone encontrado, mas erro ao capturar texto): {inner_e}")
-                        print(f"Erro ao processar o website (ícone encontrado, mas erro ao capturar texto): {inner_e}")
-                else:
-                    website = ''
+                website = ''
+                website_elements = driver.find_elements(By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[7]/div')
+                for element in website_elements:
+                    url_text = clean_text(element.text)
+                    if is_valid_website(url_text):
+                        website = url_text
+                        break
+                # Se website estiver vazio e phone contém 'whatsapp', use phone como website
+                if not website and 'whatsapp' in phone.lower():
+                    website = phone
             except Exception as e:
                 website = ''
-                logging.error(f"Erro ao processar o website (contêiner não encontrado): {e}")
-                print(f"Erro ao processar o website (contêiner não encontrado): {e}")
+                logging.error(f"Erro ao processar o website: {e}")
+                print(f"Erro ao processar o website: {e}")
             
             try:
                 instagram = ''
-                # Implementar lógica para buscar Instagram se disponível
             except:
                 instagram = ''
             
