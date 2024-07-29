@@ -1,5 +1,4 @@
 import time
-import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -8,11 +7,11 @@ import tkinter as tk
 from tkinter import simpledialog, messagebox
 import logging
 import re
-from servicos.enviarMenssagemWhatsapp import EnviarMenssagemWhtsapp
 from servicos.salvarInfoExcel import SalvarInfoExcel
 from servicos.validarTelefone import ValidarTelefone
 from servicos.validarWebSite import ValidarWebSite
-import os
+import pywhatkit
+
 logging.basicConfig(filename='robot_log.txt', level=logging.INFO,
                     format='%(asctime)s:%(levelname)s:%(message)s')
 
@@ -102,6 +101,36 @@ def extract_company_data():
     
     return company_data
 
+def send_whatsapp_messages(data):
+    logging.info("Enviando mensagens pelo WhatsApp")
+    
+    # Obter o diretório atual e construir o caminho para o arquivo
+    file_path = "Templates\mensagem-wpp.txt"
+    
+    # Ler o conteúdo do arquivo de texto
+    with open(file_path, 'r', encoding='utf-8') as file:
+        message_template = file.read()
+
+    for entry in data:
+        phone = entry[2]
+        name = entry[0]
+
+        # Verificar e formatar o número de telefone
+        if phone:
+            phone_number = phone.replace('(', '').replace(')', '').replace('-', '').replace(' ', '')
+            phone_number = '+55' + phone_number
+
+            # Substituir o placeholder pelo nome da empresa
+            message = message_template.replace('$nomeEmpresa$', name)
+            
+            try:
+                pywhatkit.sendwhatmsg_instantly(phone_number, message, wait_time=10)
+            except Exception as e:
+                logging.error(f"Erro ao enviar mensagem para {phone_number}: {e}")
+                print(f"Erro ao enviar mensagem para {phone_number}: {e}")
+
+
+
 # Função principal da automação
 def start_automation():
     niche = simpledialog.askstring("Input", "Digite o nicho de pesquisa:")
@@ -111,7 +140,7 @@ def start_automation():
         SalvarInfoExcel.save_to_excel(company_data)
         messagebox.showinfo("Info", "Extração concluída. Dados salvos no arquivo 'company_data.xlsx'.")
         if messagebox.askyesno("Enviar mensagens", "Deseja enviar mensagens pelo WhatsApp?"):
-            EnviarMenssagemWhtsapp.send_whatsapp_messages(company_data)
+            send_whatsapp_messages(company_data)
         driver.quit()
 
 # Interface gráfica
