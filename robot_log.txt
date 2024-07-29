@@ -336,3 +336,813 @@ Stacktrace:
 2024-07-22 19:00:32,315:INFO:Iniciando busca no Google Maps
 2024-07-22 19:00:38,582:INFO:Extraindo dados das empresas
 2024-07-22 19:01:37,079:INFO:Salvando dados no Excel
+2024-07-29 18:12:42,414:INFO:====== WebDriver manager ======
+2024-07-29 18:12:43,044:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-29 18:12:43,080:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-29 18:12:43,106:INFO:There is no [win64] chromedriver "127.0.6533.72" for browser google-chrome "127.0.6533" in cache
+2024-07-29 18:12:43,106:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-29 18:12:43,170:INFO:WebDriver version 127.0.6533.72 selected
+2024-07-29 18:12:43,171:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/127.0.6533.72/win32/chromedriver-win32.zip
+2024-07-29 18:12:43,171:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/127.0.6533.72/win32/chromedriver-win32.zip
+2024-07-29 18:12:43,257:INFO:Driver downloading response is 200
+2024-07-29 18:12:43,397:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-29 18:12:43,498:INFO:Driver has been saved in cache [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\127.0.6533.72]
+2024-07-29 18:14:31,300:INFO:====== WebDriver manager ======
+2024-07-29 18:14:31,906:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-29 18:14:31,931:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-29 18:14:31,956:INFO:Driver [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\127.0.6533.72\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2024-07-29 18:15:25,522:INFO:====== WebDriver manager ======
+2024-07-29 18:15:26,220:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-29 18:15:26,245:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-29 18:15:26,272:INFO:Driver [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\127.0.6533.72\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2024-07-29 18:16:22,653:INFO:====== WebDriver manager ======
+2024-07-29 18:16:23,257:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-29 18:16:23,291:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-29 18:16:23,320:INFO:Driver [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\127.0.6533.72\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2024-07-29 18:16:23,320:INFO:====== WebDriver manager ======
+2024-07-29 18:16:23,911:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-29 18:16:23,935:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-29 18:16:23,960:INFO:Driver [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\127.0.6533.72\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2024-07-29 18:17:57,036:INFO:====== WebDriver manager ======
+2024-07-29 18:17:57,633:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-29 18:17:57,658:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-29 18:17:57,687:INFO:Driver [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\127.0.6533.72\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2024-07-29 18:17:57,687:INFO:====== WebDriver manager ======
+2024-07-29 18:17:58,277:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-29 18:17:58,305:INFO:Get LATEST chromedriver version for google-chrome
+2024-07-29 18:17:58,326:INFO:Driver [C:\Users\Gabriel\.wdm\drivers\chromedriver\win64\127.0.6533.72\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2024-07-29 18:19:47,691:INFO:Iniciando busca no Google Maps
+2024-07-29 18:19:53,714:INFO:Extraindo dados das empresas
+2024-07-29 18:20:59,132:INFO:Salvando dados no Excel
+2024-07-29 18:21:08,076:INFO:Enviando mensagens pelo WhatsApp
+2024-07-29 18:21:48,538:INFO:Iniciando busca no Google Maps
+2024-07-29 18:21:54,559:INFO:Extraindo dados das empresas
+2024-07-29 18:22:11,884:INFO:Salvando dados no Excel
+2024-07-29 18:22:47,368:INFO:Iniciando busca no Google Maps
+2024-07-29 18:22:53,340:INFO:Extraindo dados das empresas
+2024-07-29 18:23:59,686:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:23:59,691:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:23:59,696:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:23:59,702:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:23:59,706:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:23:59,711:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:23:59,716:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:23:59,721:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:23:59,725:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:23:59,730:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:23:59,730:INFO:Salvando dados no Excel
+2024-07-29 18:24:23,674:INFO:Enviando mensagens pelo WhatsApp
+2024-07-29 18:26:55,640:INFO:Iniciando busca no Google Maps
+2024-07-29 18:27:01,896:INFO:Extraindo dados das empresas
+2024-07-29 18:28:08,350:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:28:08,355:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:28:08,360:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:28:08,365:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:28:08,370:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:28:08,370:INFO:Salvando dados no Excel
+2024-07-29 18:28:14,729:INFO:Enviando mensagens pelo WhatsApp
+2024-07-29 18:30:07,994:INFO:Iniciando busca no Google Maps
+2024-07-29 18:30:14,235:INFO:Extraindo dados das empresas
+2024-07-29 18:31:20,639:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:31:20,644:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:31:20,649:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:31:20,653:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:31:20,659:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:31:20,659:INFO:Salvando dados no Excel
+2024-07-29 18:31:28,728:INFO:Enviando mensagens pelo WhatsApp
+2024-07-29 18:49:08,266:INFO:Iniciando busca no Google Maps
+2024-07-29 18:49:14,584:INFO:Extraindo dados das empresas
+2024-07-29 18:50:21,050:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:50:21,055:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:50:21,060:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:50:21,065:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:50:21,070:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:50:21,070:INFO:Salvando dados no Excel
+2024-07-29 18:51:44,635:INFO:Iniciando busca no Google Maps
+2024-07-29 18:51:51,004:INFO:Extraindo dados das empresas
+2024-07-29 18:52:57,540:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:52:57,546:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:52:57,551:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:52:57,555:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:52:57,560:ERROR:Erro ao processar empresa: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/div[23]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF630B79632+30946]
+	(No symbol) [0x00007FF630B2E3C9]
+	(No symbol) [0x00007FF630A26FDA]
+	(No symbol) [0x00007FF630A7822C]
+	(No symbol) [0x00007FF630A7850C]
+	(No symbol) [0x00007FF630ABDCB7]
+	(No symbol) [0x00007FF630A9CAAF]
+	(No symbol) [0x00007FF630ABB041]
+	(No symbol) [0x00007FF630A9C813]
+	(No symbol) [0x00007FF630A6A6E5]
+	(No symbol) [0x00007FF630A6B021]
+	GetHandleVerifier [0x00007FF630CAF83D+1301229]
+	GetHandleVerifier [0x00007FF630CBBDB7+1351783]
+	GetHandleVerifier [0x00007FF630CB2A03+1313971]
+	GetHandleVerifier [0x00007FF630BADD06+245686]
+	(No symbol) [0x00007FF630B3758F]
+	(No symbol) [0x00007FF630B33804]
+	(No symbol) [0x00007FF630B33992]
+	(No symbol) [0x00007FF630B2A3EF]
+	BaseThreadInitThunk [0x00007FFE35BD7374+20]
+	RtlUserThreadStart [0x00007FFE36F9CC91+33]
+
+2024-07-29 18:52:57,560:INFO:Salvando dados no Excel
