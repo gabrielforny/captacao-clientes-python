@@ -121,26 +121,29 @@ def send_whatsapp_messages(data):
             phone_number = '+55' + phone_number
 
             # Substituir o placeholder pelo nome da empresa
+
             message = message_template.replace('$nomeEmpresa$', name)
             
             try:
-                pywhatkit.sendwhatmsg_instantly(phone_number, message, wait_time=10)
+                pywhatkit.sendwhatmsg_instantly(phone_number, message, wait_time=30)
             except Exception as e:
-                logging.error(f"Erro ao enviar mensagem para {phone_number}: {e}")
-                print(f"Erro ao enviar mensagem para {phone_number}: {e}")
+                logging.error(f"Erro ao enviar mensagem para {phone_number}")
+                print(f"Erro ao enviar mensagem para {phone_number}")
 
 
 
 # Função principal da automação
 def start_automation():
-    niche = simpledialog.askstring("Input", "Digite o nicho de pesquisa:")
-    if niche:
-        search_google_maps(niche)
-        company_data = extract_company_data()
-        SalvarInfoExcel.save_to_excel(company_data)
-        messagebox.showinfo("Info", "Extração concluída. Dados salvos no arquivo 'company_data.xlsx'.")
-        if messagebox.askyesno("Enviar mensagens", "Deseja enviar mensagens pelo WhatsApp?"):
-            send_whatsapp_messages(company_data)
+    try:
+        niche = simpledialog.askstring("Input", "Digite o nicho de pesquisa:")
+        if niche:
+            search_google_maps(niche)
+            company_data = extract_company_data()
+            SalvarInfoExcel.save_to_excel(company_data)
+            messagebox.showinfo("Info", "Extração concluída. Dados salvos no arquivo 'company_data.xlsx'.")
+            if messagebox.askyesno("Enviar mensagens", "Deseja enviar mensagens pelo WhatsApp?"):
+                send_whatsapp_messages(company_data)
+    finally:
         driver.quit()
 
 # Interface gráfica

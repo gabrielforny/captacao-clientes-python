@@ -1475,3 +1475,21 @@ Stacktrace:
 	BaseThreadInitThunk [0x00007FFE35BD7374+20]
 	RtlUserThreadStart [0x00007FFE36F9CC91+33]
 
+2024-07-30 18:13:58,736:INFO:Iniciando busca no Google Maps
+2024-07-30 18:14:04,689:INFO:Extraindo dados das empresas
+2024-07-30 18:14:40,394:INFO:Salvando dados no Excel
+2024-07-30 18:14:50,895:INFO:Enviando mensagens pelo WhatsApp
+2024-07-30 18:19:21,676:INFO:Iniciando busca no Google Maps
+2024-07-30 18:19:27,706:INFO:Extraindo dados das empresas
+2024-07-30 18:20:03,371:INFO:Salvando dados no Excel
+2024-07-30 18:20:14,117:INFO:Enviando mensagens pelo WhatsApp
+2024-07-30 18:20:30,415:ERROR:Erro ao enviar mensagem para +5521980463733
+2024-07-30 18:20:40,648:ERROR:Erro ao enviar mensagem para +5521968435193
+2024-07-30 18:21:33,831:INFO:Iniciando busca no Google Maps
+2024-07-30 18:21:40,126:INFO:Extraindo dados das empresas
+2024-07-30 18:22:15,868:INFO:Salvando dados no Excel
+2024-07-30 18:22:20,492:INFO:Enviando mensagens pelo WhatsApp
+2024-07-30 18:26:00,944:INFO:Iniciando busca no Google Maps
+2024-07-30 18:26:07,144:INFO:Extraindo dados das empresas
+2024-07-30 18:26:42,661:INFO:Salvando dados no Excel
+2024-07-30 18:26:56,452:INFO:Enviando mensagens pelo WhatsApp
